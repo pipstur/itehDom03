@@ -4,7 +4,7 @@ import PrijaviSe from "./PrijaviSe";
 function ContactPage() {
 
     function send(ime, telefon, poruka) {
-        alert('Ime:' + ime + ' Telefon:' + telefon + ' Poruka:' + poruka);
+        alert('Ime: ' + ime + ' Telefon: ' + telefon + ' Poruka: ' + poruka);
     }
 
     return (
