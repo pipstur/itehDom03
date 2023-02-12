@@ -27,7 +27,7 @@ function FormaPrijaviSe(props) {
             }
             else {
                 setTekst(<h1>Pogrešna šifra ili korisničko ime! Pokušajte ponovo!</h1>)
-                //setCounter(counter + 1)
+                setCounter(counter + 1)
                 return;
             }
             

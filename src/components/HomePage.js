@@ -3,9 +3,8 @@ import PrijaviSe from "./PrijaviSe";
 function HomePage() {
     return (
         <div className="homepage_div">
-            <PrijaviSe />
+            <PrijaviSe/>
         </div>
     );
 }
-
 export default HomePage;

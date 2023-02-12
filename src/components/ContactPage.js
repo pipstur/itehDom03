@@ -9,7 +9,7 @@ function ContactPage() {
 
     return (
         <div className="contactpage_div">
-            <h1 id='contact-us'>Kontaktirajte nas! (Iako je to nemoguće jer ovo je sajt za domaći, dobro centriranje, Vojislave. Hvala, Vojislave)</h1>
+            <h1 id='contact-us'>Kontaktirajte nas! (Iako je to nemoguće jer ovo je sajt za domaći, dobro centriranje, Vojislave. Hvala, Vojislave. Nema na čemu.)</h1>
             <FormaContactPage send={send} />
             <PrijaviSe /> 
         </div>
