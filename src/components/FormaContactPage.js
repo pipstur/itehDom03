@@ -55,10 +55,12 @@ function FormaContactPage({ send }) {
   }
 
   return (
+    <div className="formacontactpage_div">
     <form id="formacontact_div" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="showName">Prikaži ime: </label>
         <select
+          className="form-control mt-2 mb-2"
           id="showName"
           value={showName}
           onChange={(e) => setShowName(e.target.value === "true")}
@@ -71,6 +73,7 @@ function FormaContactPage({ send }) {
         <div  className="div-l-i">
           <label htmlFor="ime">Ime: </label>
           <input
+            className="form-control mt-2 mb-2"
             type="text"
             id="ime"
             value={ime}
@@ -81,6 +84,7 @@ function FormaContactPage({ send }) {
       <div>
         <label htmlFor="showPhone">Prikaži telefon: </label>
         <select
+          className="form-control mt-2 mb-2"
           id="showPhone"
           value={showPhone}
           onChange={(e) => setShowPhone(e.target.value === "true")}
@@ -93,6 +97,7 @@ function FormaContactPage({ send }) {
         <div  className="div-l-i">
           <label htmlFor="telefon">Telefon: </label>
           <input
+            className="form-control mt-2 mb-2"
             type="text"
             id="telefon"
             value={telefon}
@@ -103,13 +108,15 @@ function FormaContactPage({ send }) {
       <div  className="div-l-i">
         <label htmlFor="poruka">Poruka: </label>
         <textarea
+          className="form-control mt-3 mb-3"
           id="poruka"
           value={poruka}
           onChange={(e) => setPoruka(e.target.value)}
         />
       </div>
-      <button type="submit">Pošalji</button>
+      <button className='btn btn-success' id='btn_send' type="submit">Pošalji! </button>
     </form>
+    </div>
   );
 }
 
