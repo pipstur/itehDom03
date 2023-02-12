@@ -8,8 +8,6 @@ function App() {
     <div className="main_div">
       <Router>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </Router>
     </div>
