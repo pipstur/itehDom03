@@ -36,7 +36,6 @@ function FormaContactPage(props) {
             </form>
         </div>
     );
-
 }
 
 export default FormaContactPage;
